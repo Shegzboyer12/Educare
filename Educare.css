@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.para {
+    margin-left: 358px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.paras {
+    margin-left: 350px;
+    margin-top: 140px;
+}
+
+/* Header */
+.Side-head {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.Side-head a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.icon {
+    width: 25px;
+}
+
+.Side-nav a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    gap: 10px;
+    color: rgb(155, 155, 155);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+a:hover {
+    color: black;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Side {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    height: 100%;
+    width: 300px;
+}
+
+/* Top */
+.Back {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    background-color: rgb(232, 235, 235);
+}
+
+.Recent {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    margin-left: 360px;
+    margin-top: 80px;
+    width: 70%;
+    height: 530px;
+}
+
+#Momentum {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 450px;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.Webflow {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 370px;
+    margin: 90px 0 0 350px;
+}
+
+#Web {
+    text-decoration: none;
+    color: blue;
+}
+
+.Webflow button {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 35%;
+    height: 35px;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.Webflow button:hover {
+    background-color: blueviolet;
+}
+
+.avatar a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Middle */
+.Layout {
+    display: flex;
+    flex-direction: row;
+    margin-left: 360px;
+    gap: 17px;
+}
+
+.Layout img {
+    display: flex;
+    width: 94.5%;
+    height: 230px;
+}
+
+.Layout a {
+    text-decoration: none;
+    color: black;
+}
+
+.Lay {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+    height: 300px;
+    gap: 35px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.Layout p {
+    width: 300px;
+}
+
+.Lay h5 {
+    color: green;
+}
+
+#avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.view {
+    background-color: black;
+    color: white;
+    margin-left: 83.5%;
+    width: 8%;
+    height: 45px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.view:hover {
+    background-color: blueviolet;
+}
+
+/*Middle 2 */
+.assignment {
+    display: flex;
+    flex-direction: column;
+    margin-left: 360px;
+    gap: 20px;
+    width: 70.4%;
+}
+
+.outline {
+    display: flex;
+    gap: 70px;
+    background-color: white;
+    width: 98;
+    height: 90px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.one a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 13px;
+    font-size: large;
+    color: rgb(64, 62, 62);
+}
+
+.page {
+    color: blueviolet;
+}
+
+/*  */
+.News {
+    display: flex;
+    flex-direction: row;
+    margin-left: 360px;
+    gap: 20px;
+    width: 70%;
+}
+
+.News a {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatars img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.avatars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    width: 60%;
+    height: 300px;
+    gap: 20px;
+    justify-content: center;
+    padding-left: 20px;
+    background-color: white;
+}
+.plan a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.plan h5 {
+    color: green;
+}
